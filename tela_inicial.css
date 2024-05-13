@@ -35,11 +35,6 @@ header,
   font-style: normal;
 }
 
-.agua:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .logo {
   color: #fff;
 }

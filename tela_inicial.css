@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+#container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header,
+.navbar {
+  background-color: rgba(17, 176, 221, 0.976);
+  justify-content: space-around;
+}
+
+.agua {
+  color: #f7eee9;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.agua:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  color: #fff;
+}
+
+#menu-link {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  font-size: small;
+}
+
+/*Corpo do site*/
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+p {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container-area {
+  background-color: #f7eee9;
+}
+
+.titulo {
+  color: brown;
+  padding-top: 5px;
+  margin: 0 0 65px 0;
+
+  font-size: 40px;
+  text-align: center;
+}
+
+.titulo::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 44.5%;
+  position: absolute;
+  top: 40px;
+  left: 3%;
+}
+
+.titulo-barra::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 44.5%;
+  position: absolute;
+  top: 1px;
+  left: 3%;
+}
+
+#botao {
+  color: #f7eee9;
+  background: brown;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+#botao:hover {
+  background: #d4c7c0;
+  color: brown;
+}
+
+.titulo2 {
+  padding-left: 15px;
+  text-align: left;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: brown;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/*Footer*/
+
+ion-icon {
+  font-size: 32px;
+  color: white;
+}
+
+.titulo3 {
+  color: white;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.area-contato {
+  background-color: rgb(24, 112, 153);
+  text-align: right;
+}
+
+#container-cont {
+  padding-bottom: 1em;
+}
+
+.area-copyright {
+  background-color: rgb(24, 112, 153);
+  text-align: center;
+}
+
+#container-copy {
+  padding-top: 0;
+  padding-bottom: 0;
+}
